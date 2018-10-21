@@ -1,6 +1,6 @@
 {
   "name": "movie-search",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Notification bar React",
   "main": "index.js",
   "scripts": {
