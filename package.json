@@ -86,14 +86,14 @@
     "stylelint-config-prettier": "^4.0.0",
     "stylelint-no-browser-hacks": "^1.2.1",
     "stylelint-no-unsupported-browser-features": "^3.0.1",
-    "stylelint-order": "^1.0.0"
+    "stylelint-order": "^1.0.0",
+    "whatwg-fetch": "^3.0.0"
   },
   "dependencies": {
     "normalize.css": "^8.0.0",
     "prop-types": ">=15",
     "react": ">=15",
     "react-dom": "^16.5.2",
-    "react-truncate": "^2.4.0",
-    "react-truncate-markup": "^2.0.1"
+    "react-truncate": "^2.4.0"
   }
 }
