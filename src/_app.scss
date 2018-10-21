@@ -1,0 +1,31 @@
+// Third party libs
+@import '../node_modules/normalize.css/normalize.css';
+
+:root {
+  --textColor: #222;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  overflow-x: hidden;
+
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  color: var(--textColor);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
