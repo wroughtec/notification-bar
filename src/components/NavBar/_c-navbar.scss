@@ -1,0 +1,53 @@
+.c-navbar {
+  position: relative;
+
+  &__container {
+    display: flex;
+    height: var(--navbarHeight);
+    padding-top: .5rem;
+
+    padding-right: 1.5rem;
+    padding-bottom: .5rem;
+    padding-left: 1.5rem;
+
+    justify-content: space-between;
+    align-items: center;
+
+    color: var(--navbarColour);
+
+    background-color: var(--navbarBackground);
+  }
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-size: var(--navbarFontSize);
+    font-weight: 400;
+  }
+
+  &__btn {
+    position: relative;
+
+    display: flex;
+
+    padding: .75rem;
+    overflow: visible;
+
+    font-size: 1.5rem;
+    color: var(--navbarColour);
+    text-align: center;
+
+    cursor: pointer;
+
+    background-color: transparent;
+    border: 0;
+    border-radius: 50%;
+
+    transition: background-color 150ms cubic-bezier(.4, 0, .2, 1) 0ms;
+  }
+
+  &__icon {
+    font-size: var(--navbarFontSize);
+  }
+}

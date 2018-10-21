@@ -90,7 +90,10 @@
   },
   "dependencies": {
     "normalize.css": "^8.0.0",
-    "react": "16.x",
-    "react-dom": "^16.5.2"
+    "prop-types": ">=15",
+    "react": ">=15",
+    "react-dom": "^16.5.2",
+    "react-truncate": "^2.4.0",
+    "react-truncate-markup": "^2.0.1"
   }
 }

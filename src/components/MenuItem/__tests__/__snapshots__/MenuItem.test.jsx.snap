@@ -1,0 +1,1177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu should render correctly with comment data 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <MenuItem
+    title="test"
+    type="Comment"
+    users={
+      Array [
+        Object {
+          "commentText": "Acme remains one of my fave company ever! The way they scale is so dynamic that makes HTML5 look static!",
+          "id": "5497afbf9df3f6ff6f9ba11cdef5310f",
+          "name": "Suoma Narjus",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="c-menu-item__obj"
+        >
+          <Icon
+            iconClass="c-menu-item__icon"
+            iconId="user"
+          />
+        </div>,
+        <div
+          className="c-menu-item__body"
+        >
+          <span
+            className="c-menu-item__users"
+          >
+            Suoma Narjus 
+          </span>
+          commented 
+          <strong
+            className="c-menu-item__post"
+          >
+            on your post 
+          </strong>
+          <span
+            className="c-menu-item__title"
+          >
+            <Truncate
+              ellipsis="…"
+              lines={1}
+              trimWhitespace={false}
+              width={0}
+            >
+              test
+            </Truncate>
+          </span>
+        </div>,
+      ],
+      "className": "c-menu-item",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Icon
+            iconClass="c-menu-item__icon"
+            iconId="user"
+          />,
+          "className": "c-menu-item__obj",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "iconClass": "c-menu-item__icon",
+            "iconId": "user",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="c-menu-item__users"
+            >
+              Suoma Narjus 
+            </span>,
+            "commented ",
+            <strong
+              className="c-menu-item__post"
+            >
+              on your post 
+            </strong>,
+            <span
+              className="c-menu-item__title"
+            >
+              <Truncate
+                ellipsis="…"
+                lines={1}
+                trimWhitespace={false}
+                width={0}
+              >
+                test
+              </Truncate>
+            </span>,
+          ],
+          "className": "c-menu-item__body",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Suoma Narjus ",
+              "className": "c-menu-item__users",
+            },
+            "ref": null,
+            "rendered": "Suoma Narjus ",
+            "type": "span",
+          },
+          "commented ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "on your post ",
+              "className": "c-menu-item__post",
+            },
+            "ref": null,
+            "rendered": "on your post ",
+            "type": "strong",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Truncate
+                ellipsis="…"
+                lines={1}
+                trimWhitespace={false}
+                width={0}
+              >
+                test
+              </Truncate>,
+              "className": "c-menu-item__title",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "test",
+                "ellipsis": "…",
+                "lines": 1,
+                "trimWhitespace": false,
+                "width": 0,
+              },
+              "ref": null,
+              "rendered": "test",
+              "type": [Function],
+            },
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="c-menu-item__obj"
+          >
+            <Icon
+              iconClass="c-menu-item__icon"
+              iconId="user"
+            />
+          </div>,
+          <div
+            className="c-menu-item__body"
+          >
+            <span
+              className="c-menu-item__users"
+            >
+              Suoma Narjus 
+            </span>
+            commented 
+            <strong
+              className="c-menu-item__post"
+            >
+              on your post 
+            </strong>
+            <span
+              className="c-menu-item__title"
+            >
+              <Truncate
+                ellipsis="…"
+                lines={1}
+                trimWhitespace={false}
+                width={0}
+              >
+                test
+              </Truncate>
+            </span>
+          </div>,
+        ],
+        "className": "c-menu-item",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Icon
+              iconClass="c-menu-item__icon"
+              iconId="user"
+            />,
+            "className": "c-menu-item__obj",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "iconClass": "c-menu-item__icon",
+              "iconId": "user",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="c-menu-item__users"
+              >
+                Suoma Narjus 
+              </span>,
+              "commented ",
+              <strong
+                className="c-menu-item__post"
+              >
+                on your post 
+              </strong>,
+              <span
+                className="c-menu-item__title"
+              >
+                <Truncate
+                  ellipsis="…"
+                  lines={1}
+                  trimWhitespace={false}
+                  width={0}
+                >
+                  test
+                </Truncate>
+              </span>,
+            ],
+            "className": "c-menu-item__body",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Suoma Narjus ",
+                "className": "c-menu-item__users",
+              },
+              "ref": null,
+              "rendered": "Suoma Narjus ",
+              "type": "span",
+            },
+            "commented ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "on your post ",
+                "className": "c-menu-item__post",
+              },
+              "ref": null,
+              "rendered": "on your post ",
+              "type": "strong",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Truncate
+                  ellipsis="…"
+                  lines={1}
+                  trimWhitespace={false}
+                  width={0}
+                >
+                  test
+                </Truncate>,
+                "className": "c-menu-item__title",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "test",
+                  "ellipsis": "…",
+                  "lines": 1,
+                  "trimWhitespace": false,
+                  "width": 0,
+                },
+                "ref": null,
+                "rendered": "test",
+                "type": [Function],
+              },
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Menu should render correctly with like data 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <MenuItem
+    title="test"
+    type="Like"
+    users={
+      Array [
+        Object {
+          "id": "403f220c3d413fe9cb0b36142ebfb35d",
+          "name": "Mary T. Price",
+        },
+        Object {
+          "id": "5497afbf9df3f6ff6f9ba11cdef5310f",
+          "name": "Suoma Narjus",
+        },
+        Object {
+          "id": "fa527981cbbcb070be95854985c3188f",
+          "name": "Sandra Ortega",
+        },
+        Object {
+          "id": "4c18d43d4deccbac21a26c55f1033f53",
+          "name": "William Hunt",
+        },
+        Object {
+          "id": "38be3079117301f2f61264d6e0fbf7db",
+          "name": "An Mao",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="c-menu-item__obj"
+        >
+          <Icon
+            iconClass="c-menu-item__icon"
+            iconId="user"
+          />
+        </div>,
+        <div
+          className="c-menu-item__body"
+        >
+          <span
+            className="c-menu-item__users"
+          >
+            Mary T. Price, Suoma Narjus and 3 others 
+          </span>
+          liked 
+          <strong
+            className="c-menu-item__post"
+          >
+            your post 
+          </strong>
+          <span
+            className="c-menu-item__title"
+          >
+            <Truncate
+              ellipsis="…"
+              lines={1}
+              trimWhitespace={false}
+              width={0}
+            >
+              test
+            </Truncate>
+          </span>
+        </div>,
+      ],
+      "className": "c-menu-item",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Icon
+            iconClass="c-menu-item__icon"
+            iconId="user"
+          />,
+          "className": "c-menu-item__obj",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "iconClass": "c-menu-item__icon",
+            "iconId": "user",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="c-menu-item__users"
+            >
+              Mary T. Price, Suoma Narjus and 3 others 
+            </span>,
+            "liked ",
+            <strong
+              className="c-menu-item__post"
+            >
+              your post 
+            </strong>,
+            <span
+              className="c-menu-item__title"
+            >
+              <Truncate
+                ellipsis="…"
+                lines={1}
+                trimWhitespace={false}
+                width={0}
+              >
+                test
+              </Truncate>
+            </span>,
+          ],
+          "className": "c-menu-item__body",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Mary T. Price, Suoma Narjus and 3 others ",
+              "className": "c-menu-item__users",
+            },
+            "ref": null,
+            "rendered": "Mary T. Price, Suoma Narjus and 3 others ",
+            "type": "span",
+          },
+          "liked ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "your post ",
+              "className": "c-menu-item__post",
+            },
+            "ref": null,
+            "rendered": "your post ",
+            "type": "strong",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Truncate
+                ellipsis="…"
+                lines={1}
+                trimWhitespace={false}
+                width={0}
+              >
+                test
+              </Truncate>,
+              "className": "c-menu-item__title",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "test",
+                "ellipsis": "…",
+                "lines": 1,
+                "trimWhitespace": false,
+                "width": 0,
+              },
+              "ref": null,
+              "rendered": "test",
+              "type": [Function],
+            },
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="c-menu-item__obj"
+          >
+            <Icon
+              iconClass="c-menu-item__icon"
+              iconId="user"
+            />
+          </div>,
+          <div
+            className="c-menu-item__body"
+          >
+            <span
+              className="c-menu-item__users"
+            >
+              Mary T. Price, Suoma Narjus and 3 others 
+            </span>
+            liked 
+            <strong
+              className="c-menu-item__post"
+            >
+              your post 
+            </strong>
+            <span
+              className="c-menu-item__title"
+            >
+              <Truncate
+                ellipsis="…"
+                lines={1}
+                trimWhitespace={false}
+                width={0}
+              >
+                test
+              </Truncate>
+            </span>
+          </div>,
+        ],
+        "className": "c-menu-item",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Icon
+              iconClass="c-menu-item__icon"
+              iconId="user"
+            />,
+            "className": "c-menu-item__obj",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "iconClass": "c-menu-item__icon",
+              "iconId": "user",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="c-menu-item__users"
+              >
+                Mary T. Price, Suoma Narjus and 3 others 
+              </span>,
+              "liked ",
+              <strong
+                className="c-menu-item__post"
+              >
+                your post 
+              </strong>,
+              <span
+                className="c-menu-item__title"
+              >
+                <Truncate
+                  ellipsis="…"
+                  lines={1}
+                  trimWhitespace={false}
+                  width={0}
+                >
+                  test
+                </Truncate>
+              </span>,
+            ],
+            "className": "c-menu-item__body",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Mary T. Price, Suoma Narjus and 3 others ",
+                "className": "c-menu-item__users",
+              },
+              "ref": null,
+              "rendered": "Mary T. Price, Suoma Narjus and 3 others ",
+              "type": "span",
+            },
+            "liked ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "your post ",
+                "className": "c-menu-item__post",
+              },
+              "ref": null,
+              "rendered": "your post ",
+              "type": "strong",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Truncate
+                  ellipsis="…"
+                  lines={1}
+                  trimWhitespace={false}
+                  width={0}
+                >
+                  test
+                </Truncate>,
+                "className": "c-menu-item__title",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "test",
+                  "ellipsis": "…",
+                  "lines": 1,
+                  "trimWhitespace": false,
+                  "width": 0,
+                },
+                "ref": null,
+                "rendered": "test",
+                "type": [Function],
+              },
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Menu should render when length equals 2 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <MenuItem
+    title="test"
+    type="Like"
+    users={
+      Array [
+        Object {
+          "id": "1",
+          "name": "",
+        },
+        Object {
+          "id": "2",
+          "name": "User 2",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="c-menu-item__obj"
+        >
+          <Icon
+            iconClass="c-menu-item__icon"
+            iconId="user"
+          />
+        </div>,
+        <div
+          className="c-menu-item__body"
+        >
+          <span
+            className="c-menu-item__users"
+          >
+            User and User 2 
+          </span>
+          liked 
+          <strong
+            className="c-menu-item__post"
+          >
+            your post 
+          </strong>
+          <span
+            className="c-menu-item__title"
+          >
+            <Truncate
+              ellipsis="…"
+              lines={1}
+              trimWhitespace={false}
+              width={0}
+            >
+              test
+            </Truncate>
+          </span>
+        </div>,
+      ],
+      "className": "c-menu-item",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Icon
+            iconClass="c-menu-item__icon"
+            iconId="user"
+          />,
+          "className": "c-menu-item__obj",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "iconClass": "c-menu-item__icon",
+            "iconId": "user",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="c-menu-item__users"
+            >
+              User and User 2 
+            </span>,
+            "liked ",
+            <strong
+              className="c-menu-item__post"
+            >
+              your post 
+            </strong>,
+            <span
+              className="c-menu-item__title"
+            >
+              <Truncate
+                ellipsis="…"
+                lines={1}
+                trimWhitespace={false}
+                width={0}
+              >
+                test
+              </Truncate>
+            </span>,
+          ],
+          "className": "c-menu-item__body",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "User and User 2 ",
+              "className": "c-menu-item__users",
+            },
+            "ref": null,
+            "rendered": "User and User 2 ",
+            "type": "span",
+          },
+          "liked ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "your post ",
+              "className": "c-menu-item__post",
+            },
+            "ref": null,
+            "rendered": "your post ",
+            "type": "strong",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Truncate
+                ellipsis="…"
+                lines={1}
+                trimWhitespace={false}
+                width={0}
+              >
+                test
+              </Truncate>,
+              "className": "c-menu-item__title",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "test",
+                "ellipsis": "…",
+                "lines": 1,
+                "trimWhitespace": false,
+                "width": 0,
+              },
+              "ref": null,
+              "rendered": "test",
+              "type": [Function],
+            },
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="c-menu-item__obj"
+          >
+            <Icon
+              iconClass="c-menu-item__icon"
+              iconId="user"
+            />
+          </div>,
+          <div
+            className="c-menu-item__body"
+          >
+            <span
+              className="c-menu-item__users"
+            >
+              User and User 2 
+            </span>
+            liked 
+            <strong
+              className="c-menu-item__post"
+            >
+              your post 
+            </strong>
+            <span
+              className="c-menu-item__title"
+            >
+              <Truncate
+                ellipsis="…"
+                lines={1}
+                trimWhitespace={false}
+                width={0}
+              >
+                test
+              </Truncate>
+            </span>
+          </div>,
+        ],
+        "className": "c-menu-item",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Icon
+              iconClass="c-menu-item__icon"
+              iconId="user"
+            />,
+            "className": "c-menu-item__obj",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "iconClass": "c-menu-item__icon",
+              "iconId": "user",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="c-menu-item__users"
+              >
+                User and User 2 
+              </span>,
+              "liked ",
+              <strong
+                className="c-menu-item__post"
+              >
+                your post 
+              </strong>,
+              <span
+                className="c-menu-item__title"
+              >
+                <Truncate
+                  ellipsis="…"
+                  lines={1}
+                  trimWhitespace={false}
+                  width={0}
+                >
+                  test
+                </Truncate>
+              </span>,
+            ],
+            "className": "c-menu-item__body",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "User and User 2 ",
+                "className": "c-menu-item__users",
+              },
+              "ref": null,
+              "rendered": "User and User 2 ",
+              "type": "span",
+            },
+            "liked ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "your post ",
+                "className": "c-menu-item__post",
+              },
+              "ref": null,
+              "rendered": "your post ",
+              "type": "strong",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Truncate
+                  ellipsis="…"
+                  lines={1}
+                  trimWhitespace={false}
+                  width={0}
+                >
+                  test
+                </Truncate>,
+                "className": "c-menu-item__title",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "test",
+                  "ellipsis": "…",
+                  "lines": 1,
+                  "trimWhitespace": false,
+                  "width": 0,
+                },
+                "ref": null,
+                "rendered": "test",
+                "type": [Function],
+              },
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

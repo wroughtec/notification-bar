@@ -1,0 +1,51 @@
+.c-menu {
+  position: absolute;
+  top: var(--navbarHeight);
+  right: 1.5rem;
+
+  width: 100vw;
+  max-width: 35rem;
+  margin-left: 1.5rem;
+
+  box-shadow: 0 11px 15px -7px rgba(17, 17, 17, .2), 0 24px 38px 3px rgba(17, 17, 17, .14),
+    0 9px 46px 8px rgba(17, 17, 17, .12);
+
+  @media only screen and (min-width: 35em) {
+    width: 80vw;
+  }
+
+  &::after {
+    position: absolute;
+    top: -1rem;
+    right: .5rem;
+
+    display: block;
+
+    content: '';
+
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1rem;
+
+    border-top: 0;
+    border-bottom-color: #fff;
+  }
+
+  &__list {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    list-style: none;
+  }
+
+  &__item {
+    padding: .75rem;
+
+    border-bottom: var(--menuItemBorder);
+
+    &:last-of-type {
+      border-bottom: 0;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.c-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+
+  display: flex;
+  width: 1.5rem;
+  height: 1.5rem;
+
+  flex-wrap: wrap;
+  justify-content: center;
+
+  align-items: center;
+  align-content: center;
+
+  font-size: .75rem;
+  color: var(--notificationColour);
+
+  background-color: var(--notificationBackground);
+  border-radius: 50%;
+}

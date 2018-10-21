@@ -1,0 +1,36 @@
+.c-menu-item {
+  display: flex;
+
+  align-items: center;
+
+  &__obj {
+    display: flex;
+
+    margin-right: 1rem;
+  }
+
+  &__icon {
+    font-size: 2rem;
+  }
+
+  &__users {
+    font-weight: 600;
+    color: var(--linkColour);
+  }
+
+  &__post {
+    font-weight: 600;
+  }
+
+  &__title {
+    font-style: italic;
+
+    &::before {
+      content: '"';
+    }
+
+    &::after {
+      content: '"';
+    }
+  }
+}
